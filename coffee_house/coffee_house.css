@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 212, 212, 1);
+}
+
+nav {
+    background-image: url(https://img.freepik.com/premium-photo/top-view-roasted-coffee-beans-with-copy-space_23-2148251592.jpg?w=1380);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 40px;
+}
+
+nav input {
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70vw;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(99, 18, 18, 1);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px !important;
+}
+
+
+.img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.img img {
+    border-radius: 50%;
+    height: 99%;
+    width: 99%;
+    box-shadow: 0px 8px 8px black;
+}
+
+.img img:hover {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 12px 18px black;
+}
+
+.template h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.main .main-box {
+    width: 90%;
+    margin:auto;
+    margin-block: 50px 63.1667px;
+    background-color: rgba(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+    margin-top: 10px !important;
+}
+
+.f-brown {
+    color: brown;
+    margin: 50px 63.1667px;
+}
+
+.main .second {
+    display: block;
+}
+
+ol{
+    line-height: 2;
+}
