@@ -1,0 +1,54 @@
+.outer-box{
+    border:2px solid red;
+    margin: 50px;
+    height:500px;
+    width: 70%;
+}
+
+.heading{
+    border:2px solid red;
+    margin:30px 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+h1{
+    padding-left: 10px;
+}
+.para{
+    border: 2px solid red;
+    margin: 20px 10px;
+    padding-left: 10px;
+}
+.para2{
+    margin: 20px 10px;
+    list-style-position: outside;
+}
+.box-1{
+    border: 2px solid red;
+    
+}
+.point1{
+    border: 2px solid red;
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+.para2 ul {
+    list-style-position: outside;
+    /* Move bullet points outside the container */
+    padding-left: 6px;
+}
+footer{
+    padding-left: 10px;
+}
+.footer-allign{
+    display: inline-block;
+} 
+.outline{
+    /* display: inline-block; */
+    border: 2px solid red;
+    padding: 10px;
+}
