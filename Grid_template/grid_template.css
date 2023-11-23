@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    background-color: #ECF2F8 !important;
+}
+
+.container {
+    width: 75%;
+    height: 82vh;
+    margin: auto;
+    padding: 1em 0;
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+
+.box {
+    border-radius: 0.5em !important;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    /* https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg */
+    box-shadow: 2.5rem 3.75rem 3rem -3rem #48556A;
+}
+
+.box img {
+    width: 1.75rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div img {
+    margin-right: 1em !important;
+}
+
+.flex,
+.bt-2 {
+    margin-bottom: 1em !important;
+}
+
+.box .name {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.box .position {
+    font-size: 0.6875rem;
+    opacity: 0.5;
+}
+
+#box-1 .name,
+#box-2 .name,
+#box-4 .name {
+    color: #fff !important;
+}
+
+#box-1 .position,
+#box-2 .position,
+#box-4 .position {
+    color: #fff !important;
+}
+
+#box-1 .first-p {
+    font-size: 1.25em;
+    line-height: 1.2;
+}
+
+.box .second-p {
+    font-size: 0.813em;
+    opacity: 0.7;
+}
+
+#box-1 {
+    width: 34em;
+    background-color: #7541C8;
+    color: #fff !important;
+    background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+}
+
+
+#box-2 {
+    width: 16.25em;
+    background-color: #48556A;
+    color: #fff !important;
+}
+
+#box-3 {
+    width: 16.25em;
+    background-color: #fff;
+}
+
+#box-4 {
+    width: 34em;
+    background-color: #19212E;
+    color: #fff !important;
+}
+
+#box-5 {
+    position: absolute;
+    width: 16.25em;
+    min-height: 36em;
+    right: 0.8em;
+    margin-right: 0px !important;
+    background-color: #fff;
+}
+
+@media screen and (max-width:1154px) {
+    #box-5 {
+        position: relative;
+        width: 34em;
+    }
+}
