@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Roboto', 'sans-serif';
+    
 }
 .material-icons {
     color: rgb(96, 96, 96);
@@ -12,7 +13,18 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    
+}
+.navbar{
+    /* position: fixed; */
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* z-index: 1000; */
 }
 .menu-logo{
     display: flex;
@@ -33,6 +45,8 @@ body{
 .search-icon{
     background-color: #F0F0F0;
     height: 35px;
+    display: flex;
+    align-items: center;
 }
 .side-bar{
     width: 15%;
@@ -40,14 +54,20 @@ body{
     flex-direction: column;
     background-color: white;
 }
-.home{
-    margin-top: 40px;
-}
 .align-sidebar{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-left: 20px;
+    transition: 0.5s;
+    padding: 15px 0;
+}
+.home {
+    margin-top: 40px;
+}
+.align-sidebar:hover{
+    background-color: #E5E5E5;
+    cursor: pointer;
 }
 span{
     color: #8F918F;
@@ -62,12 +82,17 @@ span{
 }
 .main-content{
     display: flex;
+    margin-top: 60px;
+    
 }
 .main-content-scroll{
     width: 100%;
     background-color: #F9F9F9;
-    padding: 20px;
     padding-top: 0;
+    
+}
+.main-content-container{
+    margin-left: 20px;
 }
 hr{
     border-top: 1px solid #E4E4E4; 
