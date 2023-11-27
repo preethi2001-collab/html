@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+.container{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container img{
+    max-width: 350px;
+    transform-origin: center;
+    transform:perspective(800px)rotateY(20deg);
+    transition: 0.5s;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004)
+}
+.container:hover img{
+    opacity: 0.5;
+}
+.container img:hover{
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+.img{
+    background: white;
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.2),0px 0px 6px rgba(255, 255, 255, 0.2),0px 0px 9px rgba(255, 255, 255, 0.2);
+}
